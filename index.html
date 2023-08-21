@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            transition: 1s all;
+            font-family: sans-serif;
+        }
+        button{
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            transition:1s all ;
+        }
+        button:active{
+            background-color: grey;
+            color: white;
+        }
+        .list{
+            list-style: none;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Welcome to the Joke world</h1></center>
+    <center><button>Get Memes!</button></center>
+    <center>
+        <ul class="list">
+        </ul>
+    </center>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
